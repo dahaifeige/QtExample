@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <library>
-    <book time="2019/5/14" id="1">
+    <book id="1" time="2019/5/14">
         <title>c++ primer</title>
         <author>Stanley Lippman</author>
+    </book>
+    <book id="2" time="2019/05/15">
+        <title>Thinking in Java</title>
+        <author>Bruce Eckel</author>
     </book>
 </library>
