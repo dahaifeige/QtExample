@@ -33,7 +33,7 @@ void Widget::readXML()
     {
         if(node.isElement())
         {
-            QDomElement e = node.toElement();
+            QDomElement e = node.toElementZ();
             qDebug() << e.tagName() << " " << e.attribute("id") << " "
             << e.attribute("time");
             QDomNodeList list = e.childNodes();
