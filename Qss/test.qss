@@ -1,0 +1,13 @@
+QLabel {
+    qproperty-alignment: 'AlignBottom | AlignRight';
+    font: italic bold 12px arial;
+    background-color: lightgray;
+
+    border-width: 5px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 20px;
+
+    padding: 10px;
+    margin: 10px;
+}
